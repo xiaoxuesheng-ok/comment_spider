@@ -6,16 +6,16 @@ import requests
 
 import jieba
 import numpy as np
-from PTL import Image
-import matplotlib.pylot as plt
-from wordcloud import wordCloud
+from PIL import Image
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
 
 
 # 词云形状图片
 WC_MASK_IMG = '01_jd_comment.jpg'
 
 # 词云字体
-WC_FONT_PATH = '/Library/Fonts/Songti.ttc'
+WC_FONT_PATH = 'C:\Windows\Fonts\STZHONGS.TTF'
 
 
 COMMENT_FILE_PATH = '01_jd_comment.txt'
