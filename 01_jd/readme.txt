@@ -48,4 +48,12 @@ ITEM_PIPELINES = {
 }
 
 
+8. 多页
+
+9. 在03-jdSpiderByScrapy下,运行scrapy crawl jd_comments,  jd_comments 是jd_comments 里边的名称.
+
+   注意,项目 创建之后,文件夹的名字不要改动!!!!!!!!!!!!!!!!!!
+
+
+
 '''

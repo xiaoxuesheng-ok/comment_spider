@@ -26,6 +26,7 @@ class JdCommentsSpider(scrapy.Spider):
 
         yield item
 
+'''
         for i in range(1,100):
 
             # new_link = 'https://sclub.jd.com/comment/productPageComments.action?callback=fetchJSON_comment98vv1465&productId=42217334747&score=0&sortType=5&page=%s&pageSize=10&isShadowSku=0&fold=1'%i
@@ -33,8 +34,10 @@ class JdCommentsSpider(scrapy.Spider):
 
             yield scrapy.Request(new_link, callback=self.parse)
 
+'''
 
-            
+
+
 '''
             with open(COMMENT_FILE_PATH,'a+') as file :
 
