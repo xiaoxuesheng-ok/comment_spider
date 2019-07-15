@@ -8,4 +8,7 @@
 
 class JdspiderPipeline(object):
     def process_item(self, item, spider):
-        return item
+
+        print("工作:" , item['comment'])
+
+        //return item
